@@ -12,4 +12,4 @@ const exampleChildren = [
   createElement('span', { style: 'background: skyblue' }, 'bottom'),
 ]
 
-export const base = () => Grid(...exampleChildren)
+export const defaultGrid = () => Grid(...exampleChildren)
