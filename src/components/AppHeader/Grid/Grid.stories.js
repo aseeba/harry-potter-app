@@ -1,15 +1,15 @@
-import createElement from '../../createElement'
+import createElement from '../../lib/createElement'
 import Grid from './Grid'
 
-export default function {
-    title: 'Grid',
-    component: Grid,
+export default {
+  title: 'Grid',
+  component: Grid,
 }
 
 const exampleChildren = [
-    createElement('span', { style: 'background: skyblue' }, 'top'),
-    createElement('span', { style: 'background: papayawip' }, 'center')
-    createElement('span', { style: 'background: skyblue '}, 'bottom')
+  createElement('span', { style: 'background: skyblue' }, 'top'),
+  createElement('span', { style: 'background: papayawhip' }, 'center'),
+  createElement('span', { style: 'background: skyblue' }, 'bottom'),
 ]
 
 export const base = () => Grid(...exampleChildren)
