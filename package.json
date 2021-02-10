@@ -59,5 +59,8 @@
   "bugs": {
     "url": "https://github.com/aseeba/harry-potter-app/issues"
   },
-  "homepage": "https://github.com/aseeba/harry-potter-app#readme"
+  "homepage": "https://github.com/aseeba/harry-potter-app#readme",
+  "dependencies": {
+    "fontawesome": "^5.6.3"
+  }
 }
