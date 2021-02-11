@@ -61,6 +61,6 @@
   },
   "homepage": "https://github.com/aseeba/harry-potter-app#readme",
   "dependencies": {
-    "fontawesome": "^5.6.3"
+    "@fortawesome/fontawesome-free": "^5.15.2"
   }
 }

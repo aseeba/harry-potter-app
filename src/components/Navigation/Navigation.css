@@ -3,11 +3,12 @@
   grid-template-columns: repeat(4, 1fr);
   align-items: stretch;
   height: 100%;
+  background-color: var(--color-secondary);
 }
 
 .Navigation__button {
   display: grid;
-  background: #eee;
+  background-color: var(--color-secondary);
   align-content: center;
   gap: 2px;
   grid-template-rows: 20px auto;

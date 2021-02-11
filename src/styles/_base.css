@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+main {
+  background-color: var(--color-secondary);
+}
+
 h1,
 h2,
 h3 {

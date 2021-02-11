@@ -1,6 +1,8 @@
 .Card {
-  background-color: var(--color-primary);
-  color: var(--color-white);
-  border-bottom: 1px solid;
+  background-color: var(--color-white), 0.7;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
   padding: 12px;
+  margin: 20px;
+  font-weight: 500;
 }
